@@ -2,7 +2,7 @@
 
 color backgroundC = color(200);
 
-String entery_text="0";
+String entery_text= "0";
 
 void setup(){
   size(400, 500);
@@ -125,3 +125,28 @@ void Input(){
   
 }
   }
+  
+  
+  
+ void mouseClicked(){
+
+  println("7", 27, 162);
+  println("8", 127, 162);
+  println("9", 227, 162);
+  println("/", 333, 155);
+  
+  println("4", 27, 262);
+  println("5", 127, 262);
+  println("6", 227, 262);
+  println("x", 327, 262);
+  
+  println("1", 27, 362);
+  println("2", 127, 362);
+  println("3", 227, 362);
+  println("-", 327, 362);
+  
+  println("C", 27, 462);
+  println("0", 127, 462);
+  println("=", 227, 462);
+  println("+", 327, 462);
+ }
