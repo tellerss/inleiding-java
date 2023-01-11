@@ -42,6 +42,9 @@ void draw()
   }
 
 
+
+
+
 }
 
 void mouseReleased()
@@ -63,4 +66,11 @@ void xMark(float x, float y)
   line( rectSize*(x+1),rectSize*y,rectSize*x,rectSize*(y+1) );
   
   
+}
+ 
+ 
+int regels(){
+  
+  
+   
 }
