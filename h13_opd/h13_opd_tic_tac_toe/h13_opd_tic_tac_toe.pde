@@ -1,6 +1,6 @@
 int xSquare, ySquare, rectSize, turn;
 int[] squares = new int[9];
-
+boolean gewonnen = false;
 
 
 void setup()
@@ -41,8 +41,18 @@ void draw()
     }
   }
 
-
-
+}
+// [0,0,0,1,1,1,-1,-1,-1]
+void checkHorizontaalDrieOpeenRij(){
+//drie op een rij op het eerte horizontale rij
+if(gewonnen){
+  if( gewonnen == false && squares[0] == 1)
+  if(gewonnen == false && squares[1] == 1)
+  if( gewonnen == false && squares[2] == 1)
+  println("X heeft gewonnen");
+  
+}
+  
 
 
 }
@@ -69,8 +79,3 @@ void xMark(float x, float y)
 }
  
  
-int regels(){
-  
-  
-   
-}
